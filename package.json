@@ -1,0 +1,25 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos estudiando en Platzi con el resto de la comunidad",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espisepi/platzigram.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "author": "platzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/espisepi/platzigram/issues"
+  },
+  "homepage": "https://github.com/espisepi/platzigram#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
