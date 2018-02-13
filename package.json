@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/espisepi/platzigram#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.2.2"
   }
 }
