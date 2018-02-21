@@ -3,8 +3,12 @@ var express = require('express');
 
 var app = express();
 
+//Pone por defecto que el render de las vistas se haga con pug
+app.set('view engine','pug');
+
 app.get('/', function (req, res) {
-    res.send('Hola mundo!');
+    //Busca por defecto en la carpeta views (si no la tenemos hay que crearla)
+    res.render('index')
 })
 
 app.listen(3000,function(err){
