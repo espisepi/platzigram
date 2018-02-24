@@ -7,6 +7,7 @@ var app = express();
 app.set('view engine','pug');
 
 //Crea un Middleware diciendo a express que busque los archivos que necesitemos en la carpeta public
+//Hace accesible la carpeta public de nuestro proyecto a todos los usuarios que entren en nuestro sitio web
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
