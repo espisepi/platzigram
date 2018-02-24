@@ -6,6 +6,9 @@ var app = express();
 //Pone por defecto que el render de las vistas se haga con pug
 app.set('view engine','pug');
 
+//Crea un Middleware diciendo a express que busque los archivos que necesitemos en la carpeta public
+app.use(express.static('public'));
+
 app.get('/', function (req, res) {
     //Busca por defecto en la carpeta views (si no la tenemos hay que crearla)
     res.render('index')
